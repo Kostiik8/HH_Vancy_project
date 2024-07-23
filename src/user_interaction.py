@@ -1,11 +1,12 @@
 import re
+from typing import Any
 
 from src.API_HH import HHVacancyAPI
 
 
 class UserInteraction:
     @staticmethod
-    def format_salary(salary):
+    def format_salary(salary: Any) -> Any:
         """Форматирование зарплаты для отображения."""
         if not salary:
             return "Не указана"
@@ -22,14 +23,14 @@ class UserInteraction:
             return "Не указана"
 
     @staticmethod
-    def remove_highlight_tags(text):
+    def remove_highlight_tags(text: str) -> str:
         """Удаление тегов <highlighttext> из строки."""
         if text:
-            return re.sub(r'<highlighttext>|</highlighttext>', '', text)
+            return re.sub(r"<highlighttext>|</highlighttext>", "", text)
         return text
 
     @staticmethod
-    def display_top_vacancies(vacancies, top_n):
+    def display_top_vacancies(vacancies: Any, top_n: Any) -> Any:
         """Вывод топ N вакансий по зарплате."""
 
         def get_salary_from(vacancy):
@@ -51,7 +52,7 @@ class UserInteraction:
             print("-" * 40)
 
     @staticmethod
-    def search_vacancies_by_description(vacancies, keyword):
+    def search_vacancies_by_description(vacancies: Any, keyword: str) -> Any:
         """Поиск вакансий по ключевому слову в описании."""
         filtered_vacancies = [
             vacancy

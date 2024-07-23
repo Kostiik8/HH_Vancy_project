@@ -1,0 +1,96 @@
+[
+    {
+        "id": "2",
+        "title": "Java Developer",
+        "link": "http://example.com",
+        "salary": {
+            "from": 1200,
+            "to": 1600
+        },
+        "description": "\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 Java"
+    },
+    {
+        "id": "2",
+        "title": "Java Developer",
+        "link": "http://example.com",
+        "salary": {
+            "from": 1200,
+            "to": 1600
+        },
+        "description": "\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 Java"
+    },
+    {
+        "id": "2",
+        "title": "Java Developer",
+        "link": "http://example.com",
+        "salary": {
+            "from": 1200,
+            "to": 1600
+        },
+        "description": "\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 Java"
+    },
+    {
+        "id": "2",
+        "title": "Java Developer",
+        "link": "http://example.com",
+        "salary": {
+            "from": 1200,
+            "to": 1600
+        },
+        "description": "\u0422\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 Java"
+    },
+    {
+        "id": "2",
+        "title": "Data Scientist",
+        "link": "http://example.com/vacancy2",
+        "salary": {
+            "from": 120000
+        },
+        "description": "\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0432\u0430\u043a\u0430\u043d\u0441\u0438\u0438 2"
+    },
+    {
+        "id": "2",
+        "title": "Data Scientist",
+        "link": "http://example.com/vacancy2",
+        "salary": {
+            "from": 120000
+        },
+        "description": "\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0432\u0430\u043a\u0430\u043d\u0441\u0438\u0438 2"
+    },
+    {
+        "id": "2",
+        "title": "Data Scientist",
+        "link": "http://example.com/vacancy2",
+        "salary": {
+            "from": 120000
+        },
+        "description": "\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0432\u0430\u043a\u0430\u043d\u0441\u0438\u0438 2"
+    },
+    {
+        "id": "2",
+        "title": "Data Scientist",
+        "link": "http://example.com/vacancy2",
+        "salary": {
+            "from": 120000
+        },
+        "description": "\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0432\u0430\u043a\u0430\u043d\u0441\u0438\u0438 2"
+    },
+    {
+        "id": "2",
+        "title": "Data Scientist",
+        "link": "http://example.com/vacancy2",
+        "salary": {
+            "from": 120000
+        },
+        "description": "\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0432\u0430\u043a\u0430\u043d\u0441\u0438\u0438 2"
+    },
+    {
+        "id": "2",
+        "title": "Data Scientist",
+        "link": "http://example.com/vacancy2",
+        "salary": {
+            "from": 120000
+        },
+        "description": "\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0432\u0430\u043a\u0430\u043d\u0441\u0438\u0438 2"
+    }
+]

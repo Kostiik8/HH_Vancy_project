@@ -1,7 +1,9 @@
+from typing import Any
+
 from src.API_HH import HHVacancyAPI
 
 
-def extract_salary_amount(salary):
+def extract_salary_amount(salary: Any) -> float:
     """Извлечение числового значения из строки зарплаты."""
     if "от" in salary:
         return int(salary.split(" ")[1])
@@ -13,7 +15,7 @@ def extract_salary_amount(salary):
 class Vacancy:
     """Класс для работы с вакансиями."""
 
-    def __init__(self, id, title, link, salary, description):
+    def __init__(self, id: str, title: str, link: Any, salary: Any, description: str) -> None:
         self.id = id
         self.title = title
         self.link = link
