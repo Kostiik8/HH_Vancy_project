@@ -1,0 +1,579 @@
+{
+    "search_keyword": "Тестировщик",
+    "top_vacancies": [
+        {
+            "id": "102889133",
+            "premium": false,
+            "name": "Тестировщик игровых приставок",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 315000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Таганско-Краснопресненская линия",
+                "building": "метро Таганская",
+                "lat": 55.739549,
+                "lng": 37.652957,
+                "description": null,
+                "raw": "Москва, Таганско-Краснопресненская линия, метро Таганская",
+                "metro": null,
+                "metro_stations": [],
+                "id": "15976930"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2024-06-28T04:38:41+0300",
+            "created_at": "2024-06-28T04:38:41+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=102889133",
+            "show_logo_in_search": null,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/102889133?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/102889133",
+            "relations": [],
+            "employer": {
+                "id": "11168693",
+                "name": "Гнездилов Михаил Анатольевич",
+                "url": "https://api.hh.ru/employers/11168693",
+                "alternate_url": "https://hh.ru/employer/11168693",
+                "logo_urls": {
+                    "90": "https://img.hhcdn.ru/employer-logo/6779830.jpeg",
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1289883.jpg",
+                    "240": "https://img.hhcdn.ru/employer-logo/6779831.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=11168693",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": null,
+                "responsibility": null
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "flyInFlyOut",
+                "name": "Вахтовый метод"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "102",
+                    "name": "Разнорабочий"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "104661317",
+            "premium": false,
+            "name": "QA Engineer",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 270000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2024-07-25T16:54:29+0300",
+            "created_at": "2024-07-25T16:54:29+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=104661317",
+            "show_logo_in_search": null,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/104661317?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/104661317",
+            "relations": [],
+            "employer": {
+                "id": "5382804",
+                "name": "Volna.tech",
+                "url": "https://api.hh.ru/employers/5382804",
+                "alternate_url": "https://hh.ru/employer/5382804",
+                "logo_urls": {
+                    "90": "https://img.hhcdn.ru/employer-logo/5995665.jpeg",
+                    "240": "https://img.hhcdn.ru/employer-logo/5995666.jpeg",
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1093761.jpg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5382804",
+                "accredited_it_employer": true,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Знания команд bash (grep, tail, dd, sed, awk и т.д.). Базовый уровень знания java (циклы, условия, хешмапы и т...",
+                "responsibility": "Репликация и индексирование данных из различных источников (в основном Apache Hive) в распределенный облачный кластер (тоже Apache Hive), чтобы затем..."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "remote",
+                "name": "Удаленная работа"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": true,
+            "professional_roles": [
+                {
+                    "id": "124",
+                    "name": "Тестировщик"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "103551839",
+            "premium": false,
+            "name": "Middle+ QA Engineer в банк",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 260000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2024-07-09T07:35:48+0300",
+            "created_at": "2024-07-09T07:35:48+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=103551839",
+            "show_logo_in_search": null,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/103551839?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/103551839",
+            "relations": [],
+            "employer": {
+                "id": "1264207",
+                "name": "VeryIT",
+                "url": "https://api.hh.ru/employers/1264207",
+                "alternate_url": "https://hh.ru/employer/1264207",
+                "logo_urls": {
+                    "90": "https://img.hhcdn.ru/employer-logo/6775446.jpeg",
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1288787.jpg",
+                    "240": "https://img.hhcdn.ru/employer-logo/6775447.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1264207",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Базовые навыки написания автотестов на Java (UI + rest assured). Понимание ООП и паттернов, используемых в автотестировании. Опыт тестирования бекенда...",
+                "responsibility": "Проводить функциональное, регрессионное, интеграционное, е2е тестирование. Писать и поддерживать автотесты (Java). Писать и поддерживать в актуальном состоянии тестовую..."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "remote",
+                "name": "Удаленная работа"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": true,
+            "professional_roles": [
+                {
+                    "id": "124",
+                    "name": "Тестировщик"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "104099620",
+            "premium": false,
+            "name": "QA Lead Engineer",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 250000,
+                "to": 400000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2024-07-17T17:12:30+0300",
+            "created_at": "2024-07-17T17:12:30+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=104099620",
+            "show_logo_in_search": null,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/104099620?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/104099620",
+            "relations": [],
+            "employer": {
+                "id": "988480",
+                "name": "Шеф Маркет",
+                "url": "https://api.hh.ru/employers/988480",
+                "alternate_url": "https://hh.ru/employer/988480",
+                "logo_urls": {
+                    "240": "https://img.hhcdn.ru/employer-logo/3366001.png",
+                    "90": "https://img.hhcdn.ru/employer-logo/3366000.png",
+                    "original": "https://img.hhcdn.ru/employer-logo-original/731231.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=988480",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт ручного тестирования от 5 лет. Опыт автоматизации тестирования (Java / Python). Опыт управления командой от 2 человек, опыт развития сотрудников...",
+                "responsibility": "Выстраивать, улучшать и автоматизировать процессы тестирования. Управлять командой тестирования (2 <highlighttext>тестировщика</highlighttext>). Проводить функциональное, интеграционное, регрессионное ручное тестирование веб-сервисов и..."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "remote",
+                "name": "Удаленная работа"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "124",
+                    "name": "Тестировщик"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        }
+    ],
+    "description_keyword": "",
+    "filtered_vacancies": [
+        {
+            "id": "104661317",
+            "premium": false,
+            "name": "QA Engineer",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 270000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2024-07-25T16:54:29+0300",
+            "created_at": "2024-07-25T16:54:29+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=104661317",
+            "show_logo_in_search": null,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/104661317?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/104661317",
+            "relations": [],
+            "employer": {
+                "id": "5382804",
+                "name": "Volna.tech",
+                "url": "https://api.hh.ru/employers/5382804",
+                "alternate_url": "https://hh.ru/employer/5382804",
+                "logo_urls": {
+                    "90": "https://img.hhcdn.ru/employer-logo/5995665.jpeg",
+                    "240": "https://img.hhcdn.ru/employer-logo/5995666.jpeg",
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1093761.jpg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5382804",
+                "accredited_it_employer": true,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Знания команд bash (grep, tail, dd, sed, awk и т.д.). Базовый уровень знания java (циклы, условия, хешмапы и т...",
+                "responsibility": "Репликация и индексирование данных из различных источников (в основном Apache Hive) в распределенный облачный кластер (тоже Apache Hive), чтобы затем..."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "remote",
+                "name": "Удаленная работа"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": true,
+            "professional_roles": [
+                {
+                    "id": "124",
+                    "name": "Тестировщик"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "103551839",
+            "premium": false,
+            "name": "Middle+ QA Engineer в банк",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 260000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2024-07-09T07:35:48+0300",
+            "created_at": "2024-07-09T07:35:48+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=103551839",
+            "show_logo_in_search": null,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/103551839?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/103551839",
+            "relations": [],
+            "employer": {
+                "id": "1264207",
+                "name": "VeryIT",
+                "url": "https://api.hh.ru/employers/1264207",
+                "alternate_url": "https://hh.ru/employer/1264207",
+                "logo_urls": {
+                    "90": "https://img.hhcdn.ru/employer-logo/6775446.jpeg",
+                    "original": "https://img.hhcdn.ru/employer-logo-original/1288787.jpg",
+                    "240": "https://img.hhcdn.ru/employer-logo/6775447.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1264207",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Базовые навыки написания автотестов на Java (UI + rest assured). Понимание ООП и паттернов, используемых в автотестировании. Опыт тестирования бекенда...",
+                "responsibility": "Проводить функциональное, регрессионное, интеграционное, е2е тестирование. Писать и поддерживать автотесты (Java). Писать и поддерживать в актуальном состоянии тестовую..."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "remote",
+                "name": "Удаленная работа"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": true,
+            "professional_roles": [
+                {
+                    "id": "124",
+                    "name": "Тестировщик"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        },
+        {
+            "id": "104099620",
+            "premium": false,
+            "name": "QA Lead Engineer",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 250000,
+                "to": 400000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2024-07-17T17:12:30+0300",
+            "created_at": "2024-07-17T17:12:30+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=104099620",
+            "show_logo_in_search": null,
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/104099620?host=hh.ru",
+            "alternate_url": "https://hh.ru/vacancy/104099620",
+            "relations": [],
+            "employer": {
+                "id": "988480",
+                "name": "Шеф Маркет",
+                "url": "https://api.hh.ru/employers/988480",
+                "alternate_url": "https://hh.ru/employer/988480",
+                "logo_urls": {
+                    "240": "https://img.hhcdn.ru/employer-logo/3366001.png",
+                    "90": "https://img.hhcdn.ru/employer-logo/3366000.png",
+                    "original": "https://img.hhcdn.ru/employer-logo-original/731231.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=988480",
+                "accredited_it_employer": false,
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт ручного тестирования от 5 лет. Опыт автоматизации тестирования (Java / Python). Опыт управления командой от 2 человек, опыт развития сотрудников...",
+                "responsibility": "Выстраивать, улучшать и автоматизировать процессы тестирования. Управлять командой тестирования (2 <highlighttext>тестировщика</highlighttext>). Проводить функциональное, интеграционное, регрессионное ручное тестирование веб-сервисов и..."
+            },
+            "contacts": null,
+            "schedule": {
+                "id": "remote",
+                "name": "Удаленная работа"
+            },
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "124",
+                    "name": "Тестировщик"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            },
+            "adv_response_url": null,
+            "is_adv_vacancy": false,
+            "adv_context": null
+        }
+    ]
+}

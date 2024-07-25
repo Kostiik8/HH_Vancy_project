@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from typing import Any
+from typing import Any, Dict, List
 
 import requests
 
@@ -8,7 +8,7 @@ class VacancyAPI(ABC):
     """Абстрактный класс для работы с API сервиса с вакансиями."""
 
     @abstractmethod
-    def get_vacancies(self, keyword: Any) -> Any:
+    def get_vacancies(self, keyword: str) -> List[Dict[str, Any]]:
         """Получение списка вакансий по ключевому слову."""
         pass
 
@@ -21,7 +21,7 @@ class HHVacancyAPI(VacancyAPI):
         self.headers = {"User-Agent": "HH-User-Agent"}
         self.params = {"text": "", "page": 0, "per_page": 20}
 
-    def get_vacancies(self, keyword: Any) -> Any:
+    def get_vacancies(self, keyword: str) -> List[Dict[str, Any]]:
         """Получение списка вакансий по ключевому слову."""
         self.params["text"] = keyword
         vacancies = []

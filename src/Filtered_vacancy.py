@@ -1,7 +1,7 @@
 import json
 import os
 from abc import ABC, abstractmethod
-from typing import Any
+from typing import Any, Dict, List
 
 from src.API_HH import HHVacancyAPI
 from src.Vacancy import Vacancy
@@ -11,17 +11,17 @@ class VacancyStorage(ABC):
     """Абстрактный класс для работы с файлами хранения вакансий."""
 
     @abstractmethod
-    def add_vacancy(self, vacancy: Any) -> Any:
+    def add_vacancy(self, vacancy: Any) -> None:
         """Добавление вакансии в файл."""
         pass
 
     @abstractmethod
-    def get_vacancies(self, **criteria: Any) -> Any:
+    def get_vacancies(self, **criteria: Any) -> List[Dict[str, Any]]:
         """Получение данных из файла по указанным критериям."""
         pass
 
     @abstractmethod
-    def delete_vacancy_by_title(self, title: Any) -> Any:
+    def delete_vacancy_by_title(self, title: str) -> None:
         """Удаление информации о вакансии из файла по названию."""
         pass
 
@@ -29,7 +29,7 @@ class VacancyStorage(ABC):
 class JSONVacancyStorage(VacancyStorage):
     """Класс для работы с JSON-файлом для хранения вакансий."""
 
-    def __init__(self, filename: Any):
+    def __init__(self, filename: str):
         # Обновляем путь к файлу, чтобы сохранять его в директорию 'data'
         self.filename = os.path.join("../data", filename)
         if not os.path.exists("../data"):
@@ -46,7 +46,7 @@ class JSONVacancyStorage(VacancyStorage):
                 with open(self.filename, "w") as file:
                     json.dump([], file)
 
-    def add_vacancy(self, vacancy: Any) -> Any:
+    def add_vacancy(self, vacancy: Any) -> None:
         """Добавление вакансии в JSON-файл."""
         try:
             with open(self.filename, "r") as file:
@@ -62,7 +62,7 @@ class JSONVacancyStorage(VacancyStorage):
         except IOError as e:
             print(f"Ошибка при записи в файл: {e}")
 
-    def get_vacancies(self, **criteria: Any) -> Any:
+    def get_vacancies(self, **criteria: Any) -> List[Dict[str, Any]]:
         """Получение данных из JSON-файла по указанным критериям."""
         try:
             with open(self.filename, "r") as file:
@@ -90,7 +90,7 @@ class JSONVacancyStorage(VacancyStorage):
 
         return filtered_vacancies
 
-    def delete_vacancy_by_title(self, title: Any) -> Any:
+    def delete_vacancy_by_title(self, title: str) -> None:
         """Удаление вакансии из JSON-файла по названию."""
         try:
             with open(self.filename, "r") as file:

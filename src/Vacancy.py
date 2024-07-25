@@ -15,7 +15,7 @@ def extract_salary_amount(salary: Any) -> float:
 class Vacancy:
     """Класс для работы с вакансиями."""
 
-    def __init__(self, id: str, title: str, link: Any, salary: Any, description: str) -> None:
+    def __init__(self, id: str, title: str, link: str, salary: Any, description: str) -> None:
         self.id = id
         self.title = title
         self.link = link
