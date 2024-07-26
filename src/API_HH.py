@@ -29,11 +29,16 @@ class HHVacancyAPI(VacancyAPI):
         if not isinstance(self.params["page"], int) or not isinstance(self.params["per_page"], int):
             raise ValueError("Параметры 'page' и 'per_page' должны быть целыми числами")
 
-        while self.params["page"] < 20:
+        while True:
             request_params = {k: (str(v) if v is not None else "") for k, v in self.params.items()}
             response = requests.get(self.url, headers=self.headers, params=request_params)
             if response.status_code == 200:
-                vacancies.extend(response.json()["items"])
+                items = response.json().get("items", [])
+                if not items:
+                    break
+                vacancies.extend(items)
+                if len(items) < self.params["per_page"]:
+                    break
                 self.params["page"] += 1
             else:
                 break

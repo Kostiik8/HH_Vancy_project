@@ -1,5 +1,5 @@
 import pytest
-
+import requests_mock
 from src.API_HH import HHVacancyAPI
 
 
@@ -8,7 +8,7 @@ def hh_api():
     return HHVacancyAPI()
 
 
-def test_get_vacancies_success(hh_api, requests_mock):
+def test_get_vacancies_success(hh_api):
     keyword = "Python Developer"
     url = "https://api.hh.ru/vacancies"
 
@@ -31,11 +31,11 @@ def test_get_vacancies_success(hh_api, requests_mock):
         ]
     }
 
-    requests_mock.get(url, json=mock_response)
+    with requests_mock.Mocker() as m:
+        m.get(url, json=mock_response)
+        vacancies = hh_api.get_vacancies(keyword)
 
-    vacancies = hh_api.get_vacancies(keyword)
-
-    assert len(vacancies) == 40
+    assert len(vacancies) == 2
     assert vacancies[0]["name"] == "Python Developer"
     assert vacancies[0]["salary"]["from"] == 100000
     assert vacancies[1]["name"] == "Senior Python Developer"
